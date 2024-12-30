@@ -16,12 +16,12 @@
 			<iframe
 				class="video-iframe"
 				loading="eager"
-				src="https://www.youtube-nocookie.com/embed/Hr_1VTJ6JLU"
+				src="https://www.youtube-nocookie.com/embed/jvdt4jRKxOg"
 				title="Tokyo 2021 Highlights: Day One"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen
-			/>
+			></iframe>
 		</div>
 
 		<h2>Day Two</h2>
@@ -32,12 +32,12 @@
 				width="560"
 				height="315"
 				src=""
-				data-src="https://www.youtube-nocookie.com/embed/EQ8x3xy3-Ew"
+				data-src="https://www.youtube-nocookie.com/embed/jvdt4jRKxOg"
 				title="Tokyo 2021 Highlights: Day Two"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen
-			/>
+			></iframe>
 		</div>
 
 		<h2>Day Three</h2>
@@ -48,12 +48,12 @@
 				width="560"
 				height="315"
 				src=""
-				data-src="https://www.youtube-nocookie.com/embed/Zd8T3Ng3DXI"
+				data-src="https://www.youtube-nocookie.com/embed/jvdt4jRKxOg"
 				title="Tokyo 2021 Highlights: Day Three"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen
-			/>
+			></iframe>
 		</div>
 
 		<h2>Day Four</h2>
@@ -64,12 +64,12 @@
 				width="560"
 				height="315"
 				src=""
-				data-src="https://www.youtube-nocookie.com/embed/TZmijZpqha0"
+				data-src="https://www.youtube-nocookie.com/embed/jvdt4jRKxOg"
 				title="Tokyo 2021 Highlights: Day Four"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen
-			/>
+			></iframe>
 		</div>
 
 		<h2>Day Five</h2>
@@ -80,12 +80,12 @@
 				width="560"
 				height="315"
 				src=""
-				data-src="https://www.youtube-nocookie.com/embed/5s6QW-IDV4g"
+				data-src="https://www.youtube-nocookie.com/embed/jvdt4jRKxOg"
 				title="Tokyo 2021 Highlights: Day Five"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen
-			/>
+			></iframe>
 		</div>
 	</div>
 </div>
