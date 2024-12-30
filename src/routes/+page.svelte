@@ -1,11 +1,21 @@
+<script>
+	import { browser } from '$app/environment';
+	import lazyload from 'vanilla-lazyload';
+
+	if (browser && !document.lazyloadInstance) {
+		document.lazyloadInstance = new lazyload();
+	}
+</script>
+
 <div class="container">
 	<div class="content">
-		<h1>Tokyo 2020 Highlights: Loading Eager</h1>
+		<h1>Tokyo 2021 Highlights: Lazy Plugin</h1>
 
 		<h2>Day One</h2>
 		<div class="video-container">
 			<iframe
 				class="video-iframe"
+				loading="eager"
 				src="https://www.youtube-nocookie.com/embed/jvdt4jRKxOg"
 				title="Tokyo 2021 Highlights: Day One"
 				frameborder="0"
@@ -17,10 +27,12 @@
 		<h2>Day Two</h2>
 		<div class="video-container">
 			<iframe
-				class="video-iframe"
+				class="lazy video-iframe"
+				loading="lazy"
 				width="560"
 				height="315"
-				src="https://www.youtube-nocookie.com/embed/jvdt4jRKxOg"
+				src=""
+				data-src="https://www.youtube-nocookie.com/embed/jvdt4jRKxOg"
 				title="Tokyo 2021 Highlights: Day Two"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -31,10 +43,12 @@
 		<h2>Day Three</h2>
 		<div class="video-container">
 			<iframe
-				class="video-iframe"
+				class="lazy video-iframe"
+				loading="lazy"
 				width="560"
 				height="315"
-				src="https://www.youtube-nocookie.com/embed/jvdt4jRKxOg"
+				src=""
+				data-src="https://www.youtube-nocookie.com/embed/jvdt4jRKxOg"
 				title="Tokyo 2021 Highlights: Day Three"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -45,10 +59,12 @@
 		<h2>Day Four</h2>
 		<div class="video-container">
 			<iframe
-				class="video-iframe"
+				class="lazy video-iframe"
+				loading="lazy"
 				width="560"
 				height="315"
-				src="https://www.youtube-nocookie.com/embed/jvdt4jRKxOg"
+				src=""
+				data-src="https://www.youtube-nocookie.com/embed/jvdt4jRKxOg"
 				title="Tokyo 2021 Highlights: Day Four"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -59,10 +75,12 @@
 		<h2>Day Five</h2>
 		<div class="video-container">
 			<iframe
-				class="video-iframe"
+				class="lazy video-iframe"
+				loading="lazy"
 				width="560"
 				height="315"
-				src="https://www.youtube-nocookie.com/embed/jvdt4jRKxOg"
+				src=""
+				data-src="https://www.youtube-nocookie.com/embed/jvdt4jRKxOg"
 				title="Tokyo 2021 Highlights: Day Five"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
