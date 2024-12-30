@@ -27,4 +27,4 @@ jobs:
                 server: ${{ secrets.HI_SITE_SERVER}}
                 username: ${{ secrets.HI_SITE_USER}}
                 password: ${{ secrets.HI_SITE_PASS}}
-                
+                local-dir: ./build/
